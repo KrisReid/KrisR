@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021889922677D7EC0011884A /* Honeycomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889912677D7EC0011884A /* Honeycomb.swift */; };
+		021889932677D7EC0011884A /* Honeycomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889912677D7EC0011884A /* Honeycomb.swift */; };
 		023142262677CCE20018CD25 /* KrisRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142132677CCDB0018CD25 /* KrisRApp.swift */; };
 		023142272677CCE20018CD25 /* KrisRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142132677CCDB0018CD25 /* KrisRApp.swift */; };
 		023142282677CCE20018CD25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142142677CCDB0018CD25 /* ContentView.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		021889912677D7EC0011884A /* Honeycomb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honeycomb.swift; sourceTree = "<group>"; };
 		023142132677CCDB0018CD25 /* KrisRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrisRApp.swift; sourceTree = "<group>"; };
 		023142142677CCDB0018CD25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		023142152677CCE20018CD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 			children = (
 				023142132677CCDB0018CD25 /* KrisRApp.swift */,
 				023142142677CCDB0018CD25 /* ContentView.swift */,
+				021889912677D7EC0011884A /* Honeycomb.swift */,
 				023142152677CCE20018CD25 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -189,6 +193,7 @@
 			files = (
 				023142282677CCE20018CD25 /* ContentView.swift in Sources */,
 				023142262677CCE20018CD25 /* KrisRApp.swift in Sources */,
+				021889922677D7EC0011884A /* Honeycomb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			files = (
 				023142292677CCE20018CD25 /* ContentView.swift in Sources */,
 				023142272677CCE20018CD25 /* KrisRApp.swift in Sources */,
+				021889932677D7EC0011884A /* Honeycomb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
