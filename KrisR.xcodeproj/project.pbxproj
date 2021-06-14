@@ -11,6 +11,12 @@
 		021889932677D7EC0011884A /* HoneycombView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889912677D7EC0011884A /* HoneycombView.swift */; };
 		021889962677D9B50011884A /* TileModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889952677D9B50011884A /* TileModifier.swift */; };
 		021889972677D9B50011884A /* TileModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889952677D9B50011884A /* TileModifier.swift */; };
+		0218899A2677DC1B0011884A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889992677DC1A0011884A /* Application.swift */; };
+		0218899B2677DC1B0011884A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889992677DC1A0011884A /* Application.swift */; };
+		0218899D2677DC3F0011884A /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218899C2677DC3F0011884A /* Education.swift */; };
+		0218899E2677DC3F0011884A /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218899C2677DC3F0011884A /* Education.swift */; };
+		021889A02677DC780011884A /* Professional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218899F2677DC780011884A /* Professional.swift */; };
+		021889A12677DC780011884A /* Professional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218899F2677DC780011884A /* Professional.swift */; };
 		023142262677CCE20018CD25 /* KrisRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142132677CCDB0018CD25 /* KrisRApp.swift */; };
 		023142272677CCE20018CD25 /* KrisRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142132677CCDB0018CD25 /* KrisRApp.swift */; };
 		023142282677CCE20018CD25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142142677CCDB0018CD25 /* ContentView.swift */; };
@@ -22,6 +28,9 @@
 /* Begin PBXFileReference section */
 		021889912677D7EC0011884A /* HoneycombView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombView.swift; sourceTree = "<group>"; };
 		021889952677D9B50011884A /* TileModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModifier.swift; sourceTree = "<group>"; };
+		021889992677DC1A0011884A /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		0218899C2677DC3F0011884A /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		0218899F2677DC780011884A /* Professional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professional.swift; sourceTree = "<group>"; };
 		023142132677CCDB0018CD25 /* KrisRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrisRApp.swift; sourceTree = "<group>"; };
 		023142142677CCDB0018CD25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		023142152677CCE20018CD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +68,16 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		021889982677DC0F0011884A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				021889992677DC1A0011884A /* Application.swift */,
+				0218899C2677DC3F0011884A /* Education.swift */,
+				0218899F2677DC780011884A /* Professional.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0231420D2677CCDB0018CD25 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +91,7 @@
 		023142122677CCDB0018CD25 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				021889982677DC0F0011884A /* Models */,
 				021889942677D9320011884A /* Utilities */,
 				023142132677CCDB0018CD25 /* KrisRApp.swift */,
 				023142142677CCDB0018CD25 /* ContentView.swift */,
@@ -203,7 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0218899A2677DC1B0011884A /* Application.swift in Sources */,
+				021889A02677DC780011884A /* Professional.swift in Sources */,
 				023142282677CCE20018CD25 /* ContentView.swift in Sources */,
+				0218899D2677DC3F0011884A /* Education.swift in Sources */,
 				023142262677CCE20018CD25 /* KrisRApp.swift in Sources */,
 				021889962677D9B50011884A /* TileModifier.swift in Sources */,
 				021889922677D7EC0011884A /* HoneycombView.swift in Sources */,
@@ -214,7 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0218899B2677DC1B0011884A /* Application.swift in Sources */,
+				021889A12677DC780011884A /* Professional.swift in Sources */,
 				023142292677CCE20018CD25 /* ContentView.swift in Sources */,
+				0218899E2677DC3F0011884A /* Education.swift in Sources */,
 				023142272677CCE20018CD25 /* KrisRApp.swift in Sources */,
 				021889972677D9B50011884A /* TileModifier.swift in Sources */,
 				021889932677D7EC0011884A /* HoneycombView.swift in Sources */,

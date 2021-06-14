@@ -14,10 +14,14 @@ struct ContentView: View {
             
             ScrollView {
                 Text("Kris Reid")
+                    .font(.system(size: 64, weight: .light))
+                    .padding(.top, 60)
+                    .padding(.bottom, 550)
                 
-                //Add mass padding at the bottom of this
+                Text("Helll")
 
             }
+            .padding(.horizontal)
             
         }
         
