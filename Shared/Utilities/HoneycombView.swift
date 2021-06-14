@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Honeycomb: View {
+struct HoneycombView: View {
     var body: some View {
         HStack {
             HexiLine(primaryHex: false)
@@ -84,6 +84,6 @@ struct Hex: Shape {
 
 struct Honeycomb_Previews: PreviewProvider {
     static var previews: some View {
-        Honeycomb()
+        HoneycombView()
     }
 }
