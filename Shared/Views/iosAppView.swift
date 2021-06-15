@@ -11,11 +11,11 @@ import SwiftUI
 struct iosAppView: View {
     
     let applications: [Application] = [
-        .init(image: "tbg", name: "The Beautiful Game", video: "", github: ""),
-        .init(image: "travelDiscovery", name: "Travel Discovery", video: "", github: ""),
-        .init(image: "fakinder", name: "Fake Tinder", video: "", github: ""),
-        .init(image: "emirates", name: "Emirates Ticket Concept", video: "", github: ""),
-        .init(image: "aroura", name: "Aurora (Messaging App", video: "", github: "")
+        .init(image: "tbg", name: "The Beautiful Game", video: "", github: "https://github.com/KrisReid/TBG2.0"),
+        .init(image: "travelDiscovery", name: "Travel Discovery", video: "", github: "https://github.com/KrisReid/TravelDiscovery"),
+        .init(image: "fakinder", name: "Fake Tinder", video: "", github: "https://github.com/KrisReid/TravelDiscovery"),
+        .init(image: "emirates", name: "Emirates Ticket Concept", video: "", github: "https://github.com/KrisReid/TravelDiscovery"),
+        .init(image: "aroura", name: "Aurora (Messaging App", video: "", github: "https://github.com/KrisReid/Aurora")
     ]
     
     var body: some View {
