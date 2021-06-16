@@ -30,7 +30,7 @@ struct PersonalDetailsView: View {
             }
             .frame(width: 90, height: 80)
         }
-        .padding(.top, 30)
+        .padding(.vertical, 30)
     }
 }
 

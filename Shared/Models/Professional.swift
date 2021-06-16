@@ -8,5 +8,5 @@
 import Foundation
 
 struct Professional: Hashable {
-    let image, position, dates, location, descriotion: String
+    let image, position, dates, location, description: String
 }

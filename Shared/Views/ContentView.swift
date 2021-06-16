@@ -21,9 +21,9 @@ struct ContentView: View {
 
                 PersonalDetailsView()
                 
-                //Education
+                EducationsView()
                 
-                //Professional Experience
+                ProfessionalExperienceView()
                 
                 iosAppView()
 
