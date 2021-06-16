@@ -19,6 +19,10 @@
 		021889A12677DC780011884A /* Professional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218899F2677DC780011884A /* Professional.swift */; };
 		021889A42677DD4F0011884A /* iosAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889A32677DD4F0011884A /* iosAppView.swift */; };
 		021889A52677DD4F0011884A /* iosAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889A32677DD4F0011884A /* iosAppView.swift */; };
+		021889A7267A2B6D0011884A /* PersonalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889A6267A2B6D0011884A /* PersonalDetails.swift */; };
+		021889A8267A2B6D0011884A /* PersonalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889A6267A2B6D0011884A /* PersonalDetails.swift */; };
+		021889AA267A2F750011884A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889A9267A2F750011884A /* Contact.swift */; };
+		021889AB267A2F750011884A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889A9267A2F750011884A /* Contact.swift */; };
 		023142262677CCE20018CD25 /* KrisRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142132677CCDB0018CD25 /* KrisRApp.swift */; };
 		023142272677CCE20018CD25 /* KrisRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142132677CCDB0018CD25 /* KrisRApp.swift */; };
 		023142282677CCE20018CD25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142142677CCDB0018CD25 /* ContentView.swift */; };
@@ -34,6 +38,8 @@
 		0218899C2677DC3F0011884A /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
 		0218899F2677DC780011884A /* Professional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professional.swift; sourceTree = "<group>"; };
 		021889A32677DD4F0011884A /* iosAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppView.swift; sourceTree = "<group>"; };
+		021889A6267A2B6D0011884A /* PersonalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetails.swift; sourceTree = "<group>"; };
+		021889A9267A2F750011884A /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		023142132677CCDB0018CD25 /* KrisRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrisRApp.swift; sourceTree = "<group>"; };
 		023142142677CCDB0018CD25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		023142152677CCE20018CD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 				021889992677DC1A0011884A /* Application.swift */,
 				0218899C2677DC3F0011884A /* Education.swift */,
 				0218899F2677DC780011884A /* Professional.swift */,
+				021889A9267A2F750011884A /* Contact.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -85,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				023142142677CCDB0018CD25 /* ContentView.swift */,
+				021889A6267A2B6D0011884A /* PersonalDetails.swift */,
 				021889A32677DD4F0011884A /* iosAppView.swift */,
 			);
 			path = Views;
@@ -237,9 +245,11 @@
 			files = (
 				0218899A2677DC1B0011884A /* Application.swift in Sources */,
 				021889A02677DC780011884A /* Professional.swift in Sources */,
+				021889AA267A2F750011884A /* Contact.swift in Sources */,
 				021889A42677DD4F0011884A /* iosAppView.swift in Sources */,
 				023142282677CCE20018CD25 /* ContentView.swift in Sources */,
 				0218899D2677DC3F0011884A /* Education.swift in Sources */,
+				021889A7267A2B6D0011884A /* PersonalDetails.swift in Sources */,
 				023142262677CCE20018CD25 /* KrisRApp.swift in Sources */,
 				021889962677D9B50011884A /* TileModifier.swift in Sources */,
 				021889922677D7EC0011884A /* HoneycombView.swift in Sources */,
@@ -252,9 +262,11 @@
 			files = (
 				0218899B2677DC1B0011884A /* Application.swift in Sources */,
 				021889A12677DC780011884A /* Professional.swift in Sources */,
+				021889AB267A2F750011884A /* Contact.swift in Sources */,
 				021889A52677DD4F0011884A /* iosAppView.swift in Sources */,
 				023142292677CCE20018CD25 /* ContentView.swift in Sources */,
 				0218899E2677DC3F0011884A /* Education.swift in Sources */,
+				021889A8267A2B6D0011884A /* PersonalDetails.swift in Sources */,
 				023142272677CCE20018CD25 /* KrisRApp.swift in Sources */,
 				021889972677D9B50011884A /* TileModifier.swift in Sources */,
 				021889932677D7EC0011884A /* HoneycombView.swift in Sources */,
