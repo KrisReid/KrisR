@@ -26,7 +26,7 @@ struct iosAppView: View {
                 Spacer()
 
             }
-            .padding(.horizontal)
+//            .padding(.horizontal)
             .padding(.top)
             
             ScrollView (.vertical, showsIndicators: false) {
@@ -36,7 +36,7 @@ struct iosAppView: View {
                             .foregroundColor(Color(.label))
                     }
                 }
-                .padding(.horizontal)
+//                .padding(.horizontal)
                 .padding(.bottom)
             }
             

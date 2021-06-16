@@ -19,9 +19,16 @@ struct ContentView: View {
             
             VStack {
 
+                PersonalDetails()
+                
+                //Education
+                
+                //Professional Experience
+                
                 iosAppView()
 
             }
+            .padding()
             .frame(width: .infinity, height: .infinity)
             .background(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)))
             
