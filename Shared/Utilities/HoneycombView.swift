@@ -40,7 +40,7 @@ struct HexiLine: View {
     
     var body: some View {
         VStack {
-            ForEach(0..<9, id: \.self) { a in
+            ForEach(0..<7, id: \.self) { a in
                 if a == 4 && primaryHex {
                     Hex()
                         .stroke(Color(#colorLiteral(red: 0.07751391083, green: 0.08252384514, blue: 0.09950902313, alpha: 1)), lineWidth: 1.0)
@@ -84,6 +84,8 @@ struct Hex: Shape {
 
 struct Honeycomb_Previews: PreviewProvider {
     static var previews: some View {
+        
         HoneycombView()
+        
     }
 }

@@ -15,7 +15,7 @@ struct ContentView: View {
             Text("Kris Reid")
                 .font(.system(size: 64, weight: .light))
                 .padding(.top, 60)
-                .offset(y: -730)
+                .offset(y: -570)
             
             VStack {
 
@@ -24,7 +24,6 @@ struct ContentView: View {
             }
             .frame(width: .infinity, height: .infinity)
             .background(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)))
-//            .offset(y: -200)
             
         }
     }
