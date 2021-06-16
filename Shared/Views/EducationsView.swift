@@ -11,7 +11,9 @@ struct EducationsView: View {
     
     let educations: [Education] = [
         .init(image: "SAFe5", title: "SAFe5 Agilist", date: "2020", grade: "Pass"),
-        .init(image: "apmg", title: "Agile Project Manager", date: "2018", grade: "Pass")
+        .init(image: "apmg", title: "Agile Project Manager", date: "2018", grade: "Pass"),
+        .init(image: "psm1", title: "Professional Scrum Master", date: "2015", grade: "Pass"),
+        .init(image: "uwe", title: "Business Information Systems", date: "2011", grade: "First")
     ]
     
     var body: some View {
@@ -22,19 +24,16 @@ struct EducationsView: View {
                 Spacer()
 
             }
-//            .padding(.horizontal)
             .padding(.top)
             
             ScrollView (.horizontal, showsIndicators: false) {
-                VStack (spacing: 8) {
+                HStack (spacing: 16) {
                     ForEach(educations, id: \.self) { education in
                         EducationTile(education: education)
                     }
                 }
-//                .padding(.horizontal)
                 .padding(.bottom)
             }
-            
         }
     }
 }
@@ -44,7 +43,7 @@ struct EducationTile: View {
     let education: Education
     
     var body: some View {
-        HStack(spacing: 8) {
+        HStack(spacing: 12) {
             Image(education.image)
                 .resizable()
                 .scaledToFit()
@@ -56,14 +55,18 @@ struct EducationTile: View {
             
             VStack(alignment: .leading, spacing: 6) {
                 Text(education.title)
-                Text(education.date)
+                    .font(.system(size: 12, weight: .semibold))
+                HStack {
+                    Text(education.date)
+                    Spacer()
+                    Text(education.grade)
+                        .foregroundColor(.green)
+                }
+                .font(.system(size: 12, weight: .light))
             }
-            .font(.system(size: 12, weight: .semibold))
-            
             Spacer()
-            
         }
-        .frame(width: 240)
+        .frame(width: 230)
         .asTile()
     }
 }
