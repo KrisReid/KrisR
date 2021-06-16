@@ -19,7 +19,7 @@ struct ContentView: View {
             
             VStack {
 
-                PersonalDetails()
+                PersonalDetailsView()
                 
                 //Education
                 
