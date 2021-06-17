@@ -62,7 +62,6 @@ struct ApplicationTile: View {
             Spacer()
             
             HStack (spacing: 10){
-                
                 Link(destination: URL(string: application.github)!) {
                     Image("github")
                         .resizable()
@@ -80,7 +79,6 @@ struct ApplicationTile: View {
         .asTile()
     }
 }
-
 
 struct iosAppView_Previews: PreviewProvider {
     static var previews: some View {
