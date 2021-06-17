@@ -11,11 +11,11 @@ import SwiftUI
 struct iosAppView: View {
     
     let applications: [Application] = [
-        .init(image: "tbg", name: "The Beautiful Game", video: "", github: "https://github.com/KrisReid/TBG2.0"),
-        .init(image: "travelDiscovery", name: "Travel Discovery", video: "", github: "https://github.com/KrisReid/TravelDiscovery"),
-        .init(image: "fakinder", name: "Fake Tinder", video: "", github: "https://github.com/KrisReid/TravelDiscovery"),
-        .init(image: "emirates", name: "Emirates Ticket Concept", video: "", github: "https://github.com/KrisReid/TravelDiscovery"),
-        .init(image: "aroura", name: "Aurora (Messaging App", video: "", github: "https://github.com/KrisReid/Aurora")
+        .init(image: "tbg", name: "The Beautiful Game", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/TBG2.0"),
+        .init(image: "travelDiscovery", name: "Travel Discovery", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/TravelDiscovery"),
+        .init(image: "fakinder", name: "Fake Tinder", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/TravelDiscovery"),
+        .init(image: "emirates", name: "Emirates Ticket Concept", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/TravelDiscovery"),
+        .init(image: "aroura", name: "Aurora (Messaging App", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/Aurora")
     ]
     
     var body: some View {
@@ -62,17 +62,21 @@ struct ApplicationTile: View {
             Spacer()
             
             HStack (spacing: 10){
-                Image("github")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 24, height: 24)
                 
-                Image(systemName: "video.circle")
-                    .font(.system(size: 24, weight: .light))
+                Link(destination: URL(string: application.github)!) {
+                    Image("github")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 24, height: 24)
+                }
+                
+                Link(destination: URL(string: application.video)!) {
+                    Image(systemName: "video.circle")
+                        .font(.system(size: 24, weight: .light))
+                }
             }
         }
         .padding(.trailing)
-        .frame(width: .infinity)
         .asTile()
     }
 }
