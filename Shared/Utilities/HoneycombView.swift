@@ -84,8 +84,6 @@ struct Hex: Shape {
 
 struct Honeycomb_Previews: PreviewProvider {
     static var previews: some View {
-        
         HoneycombView()
-        
     }
 }

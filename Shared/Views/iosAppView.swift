@@ -24,9 +24,7 @@ struct iosAppView: View {
                 Text("Built Apps")
                     .font(.system(size: 18, weight: .light))
                 Spacer()
-
             }
-//            .padding(.horizontal)
             .padding(.top)
             
             ScrollView (.vertical, showsIndicators: false) {
@@ -36,10 +34,8 @@ struct iosAppView: View {
                             .foregroundColor(Color(.label))
                     }
                 }
-//                .padding(.horizontal)
                 .padding(.bottom)
             }
-            
         }
     }
 }
@@ -74,9 +70,6 @@ struct ApplicationTile: View {
                 Image(systemName: "video.circle")
                     .font(.system(size: 24, weight: .light))
             }
-
-
-            
         }
         .padding(.trailing)
         .frame(width: .infinity)

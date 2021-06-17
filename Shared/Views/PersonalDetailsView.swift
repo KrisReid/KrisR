@@ -16,7 +16,6 @@ struct PersonalDetailsView: View {
             .init(image: "location")
         ]
 
-    
         HStack (spacing: 30) {
             ForEach(contactMethods, id: \.self) { contactMethod in
                 ZStack {
