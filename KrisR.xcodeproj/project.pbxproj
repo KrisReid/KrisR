@@ -27,6 +27,8 @@
 		021889AE267A90EE0011884A /* EducationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889AC267A90EE0011884A /* EducationsView.swift */; };
 		021889B0267A99770011884A /* ProfessionalExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889AF267A99770011884A /* ProfessionalExperienceView.swift */; };
 		021889B1267A99770011884A /* ProfessionalExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889AF267A99770011884A /* ProfessionalExperienceView.swift */; };
+		021889B3267C8C540011884A /* EmailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889B2267C8C540011884A /* EmailHelper.swift */; };
+		021889B4267C8C540011884A /* EmailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021889B2267C8C540011884A /* EmailHelper.swift */; };
 		023142262677CCE20018CD25 /* KrisRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142132677CCDB0018CD25 /* KrisRApp.swift */; };
 		023142272677CCE20018CD25 /* KrisRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142132677CCDB0018CD25 /* KrisRApp.swift */; };
 		023142282677CCE20018CD25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023142142677CCDB0018CD25 /* ContentView.swift */; };
@@ -46,6 +48,7 @@
 		021889A9267A2F750011884A /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		021889AC267A90EE0011884A /* EducationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationsView.swift; sourceTree = "<group>"; };
 		021889AF267A99770011884A /* ProfessionalExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalExperienceView.swift; sourceTree = "<group>"; };
+		021889B2267C8C540011884A /* EmailHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailHelper.swift; sourceTree = "<group>"; };
 		023142132677CCDB0018CD25 /* KrisRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrisRApp.swift; sourceTree = "<group>"; };
 		023142142677CCDB0018CD25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		023142152677CCE20018CD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 			children = (
 				021889912677D7EC0011884A /* HoneycombView.swift */,
 				021889952677D9B50011884A /* TileModifier.swift */,
+				021889B2267C8C540011884A /* EmailHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -255,6 +259,7 @@
 				021889A02677DC780011884A /* Professional.swift in Sources */,
 				021889AD267A90EE0011884A /* EducationsView.swift in Sources */,
 				021889AA267A2F750011884A /* Contact.swift in Sources */,
+				021889B3267C8C540011884A /* EmailHelper.swift in Sources */,
 				021889A42677DD4F0011884A /* iosAppView.swift in Sources */,
 				023142282677CCE20018CD25 /* ContentView.swift in Sources */,
 				021889B0267A99770011884A /* ProfessionalExperienceView.swift in Sources */,
@@ -274,6 +279,7 @@
 				021889A12677DC780011884A /* Professional.swift in Sources */,
 				021889AE267A90EE0011884A /* EducationsView.swift in Sources */,
 				021889AB267A2F750011884A /* Contact.swift in Sources */,
+				021889B4267C8C540011884A /* EmailHelper.swift in Sources */,
 				021889A52677DD4F0011884A /* iosAppView.swift in Sources */,
 				023142292677CCE20018CD25 /* ContentView.swift in Sources */,
 				021889B1267A99770011884A /* ProfessionalExperienceView.swift in Sources */,
