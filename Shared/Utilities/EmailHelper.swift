@@ -12,10 +12,6 @@ class EmailHelper: NSObject, MFMailComposeViewControllerDelegate {
     
     public static let shared = EmailHelper()
     
-    private override init() {
-    }
-    
-    
     func sendEmail(subject:String, body:String, to:String){
         if !MFMailComposeViewController.canSendMail() {
             print("No mail account found")

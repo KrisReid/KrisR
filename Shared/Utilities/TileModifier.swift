@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 extension View {
     func asTile() -> some View {
         modifier(TileModifier())
