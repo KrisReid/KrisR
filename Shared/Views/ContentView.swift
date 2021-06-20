@@ -9,28 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            HoneycombView()
-            
-            Text("Kris Reid")
-                .font(.system(size: 64, weight: .light))
-                .padding(.top, 60)
-                .offset(y: -570)
-            
-            VStack {
+        ZStack {
+            ScrollView {
+                HoneycombView()
 
-                PersonalDetailsView()
+                Text("Kris Reid")
+                    .font(.system(size: 64, weight: .light))
+                    .padding(.top, 60)
+                    .offset(y: -570)
                 
-                EducationsView()
-                
-                ProfessionalExperienceView()
-                
-                iosAppView()
-
+                VStack {
+                    PersonalDetailsView()
+                    EducationsView()
+                    ProfessionalExperienceView()
+                    iosAppView()
+                }
+                .padding()
+                .background(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)))
             }
-            .padding()
-            .background(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)))
-            
         }
     }
 }
