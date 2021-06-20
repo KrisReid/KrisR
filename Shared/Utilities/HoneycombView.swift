@@ -33,7 +33,7 @@ struct HexiLine: View {
     
     @State private var degrees: Double = 0
     @State private var flipped: Bool = false
-
+    
     private let animation = Animation.easeInOut(duration: 1.5).repeatForever(autoreverses: true)
     
     let primaryHex: Bool

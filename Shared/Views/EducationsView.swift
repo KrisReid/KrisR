@@ -24,6 +24,7 @@ struct EducationsView: View {
                 Spacer()
 
             }
+            .padding(.horizontal)
             .padding(.top)
             
             ScrollView (.horizontal, showsIndicators: false) {
@@ -33,6 +34,7 @@ struct EducationsView: View {
                     }
                 }
                 .padding(.bottom)
+                .padding(.horizontal)
             }
         }
     }

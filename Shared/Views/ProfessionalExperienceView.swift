@@ -27,6 +27,7 @@ struct ProfessionalExperienceView: View {
 
             }
             .padding(.top)
+            .padding(.horizontal)
             
             ScrollView (.horizontal, showsIndicators: false) {
                 HStack (spacing: 16) {
@@ -35,6 +36,7 @@ struct ProfessionalExperienceView: View {
                     }
                 }
                 .padding(.bottom)
+                .padding(.horizontal)
             }
         }
     }

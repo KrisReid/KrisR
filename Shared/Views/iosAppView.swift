@@ -25,8 +25,6 @@ struct iosAppView: View {
                     .font(.system(size: 18, weight: .light))
                 Spacer()
             }
-            .padding(.top)
-            
             ScrollView (.vertical, showsIndicators: false) {
                 VStack (spacing: 8) {
                     ForEach(applications, id: \.self) { application in
@@ -34,9 +32,9 @@ struct iosAppView: View {
                             .foregroundColor(Color(.label))
                     }
                 }
-                .padding(.bottom)
             }
         }
+        .padding()
     }
 }
 
