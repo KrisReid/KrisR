@@ -50,9 +50,12 @@ struct HexiLine: View {
                             .degrees(degrees), axis: (x: 1.0, y: 0.0, z: 0.0)
                         )
                         .onAppear {
-                            withAnimation (self.animation) {
-                                degrees += 360
-                                flipped.toggle()
+                            
+                            DispatchQueue.main.async {
+                                withAnimation(self.animation) {
+                                    degrees += 360
+                                    flipped.toggle()
+                                }
                             }
                         }
                 } else {
