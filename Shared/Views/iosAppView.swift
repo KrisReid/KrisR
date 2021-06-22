@@ -11,11 +11,11 @@ import SwiftUI
 struct iosAppView: View {
     
     let applications: [Application] = [
-        .init(image: "tbg", name: "The Beautiful Game", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/TBG2.0"),
-        .init(image: "travelDiscovery", name: "Travel Discovery", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/TravelDiscovery"),
-        .init(image: "fakinder", name: "Fake Tinder", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/TravelDiscovery"),
-        .init(image: "emirates", name: "Emirates Ticket Concept", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/TravelDiscovery"),
-        .init(image: "aroura", name: "Aurora (Messaging App", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/Aurora")
+        .init(image: "tbg", name: "The Beautiful Game", video: "https://www.youtube.com/watch?v=S-ng3YxPFJU", github: "https://github.com/KrisReid/TBG2.0"),
+        .init(image: "travelDiscovery", name: "Travel Discovery", video: "https://youtu.be/8U1mz058teI", github: "https://www.letsbuildthatapp.com/course/SwiftUI%20Mastery%20Travel%20Discovery"),
+        .init(image: "fakinder", name: "Fake Tinder", video: "https://www.youtube.com/watch?v=VlYLRWoIT3U", github: "https://github.com/KrisReid/Fakinder"),
+        .init(image: "emirates", name: "Emirates Ticket Concept", video: "https://youtu.be/2nctzxUanVM", github: "https://github.com/KrisReid/Plane-Ticket-Concept"),
+        .init(image: "aroura", name: "Aurora (Messaging App", video: "dd", github: "https://github.com/KrisReid/Aurora")
     ]
     
     var body: some View {
