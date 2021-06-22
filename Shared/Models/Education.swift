@@ -8,5 +8,5 @@
 import Foundation
 
 struct Education: Hashable {
-    let image, title, date, grade: String
+    let image, title, date, grade, cert: String
 }

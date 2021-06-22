@@ -10,10 +10,10 @@ import SwiftUI
 struct EducationsView: View {
     
     let educations: [Education] = [
-        .init(image: "SAFe5", title: "SAFe5 Agilist", date: "2020", grade: "Pass"),
-        .init(image: "apmg", title: "Agile Project Manager", date: "2018", grade: "Pass"),
-        .init(image: "psm1", title: "Professional Scrum Master", date: "2015", grade: "Pass"),
-        .init(image: "uwe", title: "Business Information Systems", date: "2011", grade: "First")
+        .init(image: "SAFe5", title: "SAFe5 Agilist", date: "2020", grade: "Pass", cert: "SAFe5_cert"),
+        .init(image: "apmg", title: "Agile Project Manager", date: "2018", grade: "Pass", cert: "apmg_cert"),
+        .init(image: "psm1", title: "Professional Scrum Master", date: "2015", grade: "Pass", cert: "b"),
+        .init(image: "uwe", title: "Business Information Systems", date: "2011", grade: "First", cert: "uwe_cert")
     ]
     
     var body: some View {
@@ -30,7 +30,13 @@ struct EducationsView: View {
             ScrollView (.horizontal, showsIndicators: false) {
                 HStack (spacing: 16) {
                     ForEach(educations, id: \.self) { education in
-                        EducationTile(education: education)
+                        
+                        NavigationLink (
+                            destination: EducationDetail(education: education),
+                            label: {
+                                EducationTile(education: education)
+                            }
+                        )
                     }
                 }
                 .padding(.bottom)
@@ -58,8 +64,10 @@ struct EducationTile: View {
             VStack(alignment: .leading, spacing: 6) {
                 Text(education.title)
                     .font(.system(size: 12, weight: .semibold))
+                    .foregroundColor(.black)
                 HStack {
                     Text(education.date)
+                        .foregroundColor(.black)
                     Spacer()
                     Text(education.grade)
                         .foregroundColor(.green)
@@ -73,8 +81,25 @@ struct EducationTile: View {
     }
 }
 
+
+struct EducationDetail: View {
+    
+    let education: Education
+    
+    var body: some View {
+        VStack {
+            Image(education.cert)
+                .resizable()
+                .scaledToFit()
+        }
+        .ignoresSafeArea()
+    }
+}
+
+
 struct EducationView_Previews: PreviewProvider {
     static var previews: some View {
         EducationsView()
+        EducationDetail(education: .init(image: "apmg", title: "Agile Project Manager", date: "2018", grade: "Pass", cert: "apmg_cert"))
     }
 }
